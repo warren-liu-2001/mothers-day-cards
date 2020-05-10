@@ -1,0 +1,86 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-title {
+    background-color: #f1dcb5;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+  }
+  
+  .App-Description {
+    background-color: #f1dcb5;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(5px + 2vmin);
+    color: rgb(68, 68, 68);
+  }
+
+  .App-Content {
+    background-color: #f1dcb5;
+    min-height: 10vh;
+    display: flex;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(5px + 1vmin);
+    color: rgb(0, 0, 0);
+  }
+  
+  .pic {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 450px;
+  }
+
+  .signature {
+    background-color: #f1dcb5;
+    border: 5px solid red;
+    min-height: 10vh;
+    display: flex;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(5px + 2vmin);
+    color: rgb(0, 0, 0);
+  }
+
+
+  .App-link {
+    color: #858585;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
